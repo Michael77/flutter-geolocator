@@ -5,6 +5,7 @@ buildscript {
     repositories {
         google()
         jcenter()
+        mavenLocal()
     }
 
     dependencies {
@@ -16,6 +17,7 @@ rootProject.allprojects {
     repositories {
         google()
         jcenter()
+        mavenLocal()
     }
 }
 
@@ -25,7 +27,8 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
+        targetSdkVersion 28
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'lib-proguard-rules.txt'
     }
