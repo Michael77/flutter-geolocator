@@ -1,7 +1,7 @@
 package com.baseflow.flutter.plugin.geolocator.tasks;
 
 import android.location.Location;
-import androidx.support.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 import com.baseflow.flutter.plugin.geolocator.data.PositionMapper;
 import com.google.android.gms.location.FusedLocationProviderClient;
