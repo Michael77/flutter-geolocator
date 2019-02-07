@@ -11,7 +11,9 @@ dependencies:
   permission_handler:
     git:
       url: git://github.com/Michael77/flutter-permission-handler.git
-  google_api_availability: "^1.0.4"
+  google_api_availability:
+    git:
+      url: git://github.com/Michael77/flutter-google-api-availability.git
 dev_dependencies:
   flutter_test:
     sdk: flutter
